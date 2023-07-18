@@ -26,14 +26,14 @@ If you use the Img2illum data or code, please cite:
 
 ## How to use the repo
 
-First, clone the repo.
+1. First, clone the repo.
 
 ```bash
 git clone git@github.com:Aitensa/Img2Illum.git
 cd Img2Illum
 ```
 
-Then, install all the dependencies with `pipenv`:
+2. Then, install all the dependencies with `pipenv`:
 
 ```bash
 pipenv install
@@ -41,8 +41,17 @@ pipenv shell
 
 
 ./install_deps.sh
+python setup.py install
+cd /EPN/EPNUtils/vgtk/
+python setup.py install
+cd -
 ```
-
+3. Download the model weights
+```bash
+    cd DepthEst/
+    wget https://cloudstor.aarnet.edu.au/plus/s/VVQayrMKPlpVkw9 # ResNet50 backbone
+    wget https://cloudstor.aarnet.edu.au/plus/s/lTIJF4vrvHCAI31 # ResNeXt101 backbone
+```
 ## Preprocess Steps
 
 
