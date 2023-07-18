@@ -1,7 +1,7 @@
 # Img2illum: Equivariant Indoor Illumination Map Estimation from A Single Image 
 
 
-This is the official code release for *Equivariant Indoor Illumination Map Estimation from A Single Image* which was published in ECCV 2020. 
+This is the official code release for *Equivariant Indoor Illumination Map Estimation from A Single Image* which was published in CICAI 2023. 
 
 
 
