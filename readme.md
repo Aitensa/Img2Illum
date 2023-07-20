@@ -15,8 +15,8 @@ Thanks to the recent development of inverse rendering, photorealistic re-synthes
 If you use the Img2illum data or code, please cite: 
 
 ```bibtex
-@InProceedings{pointar_eccv2020,
-    author="",
+@InProceedings{Img2Illum_cicai2023,
+    author="Yusen Ai, Xiaoxue Chen, Xin Wu, Hao Zhao",
     title="Equivariant Indoor Illumination Map Estimation from A Single Image",
     booktitle="CICAI",
     year="2023",
